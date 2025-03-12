@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  aichatbot:
+    image: aichatbot:latest
+    
+    ports:
+      - "32768:8501"
+      
+
